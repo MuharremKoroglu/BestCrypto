@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B03872E298A48F000DCF822 /* RatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03872D298A48F000DCF822 /* RatesViewModel.swift */; };
+		3B038730298A4C0000DCF822 /* CryptoAssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03872F298A4C0000DCF822 /* CryptoAssetViewModel.swift */; };
+		3B2AF1102987B25C00D42B1E /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF10F2987B25C00D42B1E /* CryptoModel.swift */; };
+		3B2AF1122987B96900D42B1E /* CryptoAssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF1112987B96900D42B1E /* CryptoAssetModel.swift */; };
+		3B2AF1142987C34600D42B1E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF1132987C34600D42B1E /* TableViewCell.swift */; };
+		3B2AF1162987C54300D42B1E /* SingleCryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF1152987C54300D42B1E /* SingleCryptoModel.swift */; };
+		3B2AF1192987C5B900D42B1E /* RatesWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF1182987C5B900D42B1E /* RatesWebService.swift */; };
+		3B2AF11B2988003B00D42B1E /* SingleRateWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF11A2988003B00D42B1E /* SingleRateWebService.swift */; };
+		3B2AF11D2988006900D42B1E /* AssetWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AF11C2988006900D42B1E /* AssetWebService.swift */; };
+		3B4C9A28298D25B4000CF52D /* CryptoSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4C9A27298D25B4000CF52D /* CryptoSingleton.swift */; };
+		3B4C9A2C298D2F80000CF52D /* SingleRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4C9A2B298D2F7F000CF52D /* SingleRateViewModel.swift */; };
+		3BAB89A0298AA1DD00EB628D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3BAB899F298AA1DD00EB628D /* SDWebImage */; };
 		3BD8A0772986A58F00191B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A0762986A58F00191B7B /* AppDelegate.swift */; };
 		3BD8A0792986A58F00191B7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A0782986A58F00191B7B /* SceneDelegate.swift */; };
-		3BD8A07B2986A58F00191B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A07A2986A58F00191B7B /* ViewController.swift */; };
+		3BD8A07B2986A58F00191B7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A07A2986A58F00191B7B /* HomeViewController.swift */; };
 		3BD8A07E2986A58F00191B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD8A07C2986A58F00191B7B /* Main.storyboard */; };
 		3BD8A0802986A59100191B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD8A07F2986A59100191B7B /* Assets.xcassets */; };
 		3BD8A0832986A59100191B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD8A0812986A59100191B7B /* LaunchScreen.storyboard */; };
+		3BD8A08B2986A5C500191B7B /* CryptosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A08A2986A5C500191B7B /* CryptosViewController.swift */; };
+		3BD8A08D2986B94500191B7B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A08C2986B94500191B7B /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B03872D298A48F000DCF822 /* RatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewModel.swift; sourceTree = "<group>"; };
+		3B03872F298A4C0000DCF822 /* CryptoAssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAssetViewModel.swift; sourceTree = "<group>"; };
+		3B2AF10F2987B25C00D42B1E /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		3B2AF1112987B96900D42B1E /* CryptoAssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAssetModel.swift; sourceTree = "<group>"; };
+		3B2AF1132987C34600D42B1E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3B2AF1152987C54300D42B1E /* SingleCryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCryptoModel.swift; sourceTree = "<group>"; };
+		3B2AF1182987C5B900D42B1E /* RatesWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesWebService.swift; sourceTree = "<group>"; };
+		3B2AF11A2988003B00D42B1E /* SingleRateWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRateWebService.swift; sourceTree = "<group>"; };
+		3B2AF11C2988006900D42B1E /* AssetWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetWebService.swift; sourceTree = "<group>"; };
+		3B4C9A27298D25B4000CF52D /* CryptoSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSingleton.swift; sourceTree = "<group>"; };
+		3B4C9A2B298D2F7F000CF52D /* SingleRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRateViewModel.swift; sourceTree = "<group>"; };
 		3BD8A0732986A58F00191B7B /* BestCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD8A0762986A58F00191B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BD8A0782986A58F00191B7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BD8A07A2986A58F00191B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BD8A07A2986A58F00191B7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3BD8A07D2986A58F00191B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BD8A07F2986A59100191B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD8A0822986A59100191B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BD8A0842986A59100191B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD8A08A2986A5C500191B7B /* CryptosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptosViewController.swift; sourceTree = "<group>"; };
+		3BD8A08C2986B94500191B7B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +58,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAB89A0298AA1DD00EB628D /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B03872C298A489900DCF822 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B03872D298A48F000DCF822 /* RatesViewModel.swift */,
+				3B03872F298A4C0000DCF822 /* CryptoAssetViewModel.swift */,
+				3B4C9A2B298D2F7F000CF52D /* SingleRateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3B2AF10B2986BBA300D42B1E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3BD8A0762986A58F00191B7B /* AppDelegate.swift */,
+				3BD8A0782986A58F00191B7B /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3B2AF10C2986BBB000D42B1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BD8A07A2986A58F00191B7B /* HomeViewController.swift */,
+				3BD8A08A2986A5C500191B7B /* CryptosViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B2AF10D2986BBCA00D42B1E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3BD8A08C2986B94500191B7B /* CollectionViewCell.swift */,
+				3B2AF1132987C34600D42B1E /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3B2AF10E2987B24100D42B1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B2AF10F2987B25C00D42B1E /* CryptoModel.swift */,
+				3B2AF1112987B96900D42B1E /* CryptoAssetModel.swift */,
+				3B2AF1152987C54300D42B1E /* SingleCryptoModel.swift */,
+				3B4C9A27298D25B4000CF52D /* CryptoSingleton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B2AF1172987C59800D42B1E /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B2AF1182987C5B900D42B1E /* RatesWebService.swift */,
+				3B2AF11A2988003B00D42B1E /* SingleRateWebService.swift */,
+				3B2AF11C2988006900D42B1E /* AssetWebService.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
 		3BD8A06A2986A58F00191B7B = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +142,12 @@
 		3BD8A0752986A58F00191B7B /* BestCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				3BD8A0762986A58F00191B7B /* AppDelegate.swift */,
-				3BD8A0782986A58F00191B7B /* SceneDelegate.swift */,
-				3BD8A07A2986A58F00191B7B /* ViewController.swift */,
+				3B03872C298A489900DCF822 /* ViewModels */,
+				3B2AF1172987C59800D42B1E /* Web Services */,
+				3B2AF10E2987B24100D42B1E /* Models */,
+				3B2AF10D2986BBCA00D42B1E /* Cell */,
+				3B2AF10C2986BBB000D42B1E /* View */,
+				3B2AF10B2986BBA300D42B1E /* Delegates */,
 				3BD8A07C2986A58F00191B7B /* Main.storyboard */,
 				3BD8A07F2986A59100191B7B /* Assets.xcassets */,
 				3BD8A0812986A59100191B7B /* LaunchScreen.storyboard */,
@@ -83,6 +172,9 @@
 			dependencies = (
 			);
 			name = BestCrypto;
+			packageProductDependencies = (
+				3BAB899F298AA1DD00EB628D /* SDWebImage */,
+			);
 			productName = BestCrypto;
 			productReference = 3BD8A0732986A58F00191B7B /* BestCrypto.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +203,9 @@
 				Base,
 			);
 			mainGroup = 3BD8A06A2986A58F00191B7B;
+			packageReferences = (
+				3BAB899E298AA1DD00EB628D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 3BD8A0742986A58F00191B7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +233,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD8A07B2986A58F00191B7B /* ViewController.swift in Sources */,
+				3B2AF1102987B25C00D42B1E /* CryptoModel.swift in Sources */,
+				3B2AF1142987C34600D42B1E /* TableViewCell.swift in Sources */,
+				3B03872E298A48F000DCF822 /* RatesViewModel.swift in Sources */,
+				3B2AF1192987C5B900D42B1E /* RatesWebService.swift in Sources */,
+				3B4C9A28298D25B4000CF52D /* CryptoSingleton.swift in Sources */,
+				3B2AF11D2988006900D42B1E /* AssetWebService.swift in Sources */,
+				3BD8A08D2986B94500191B7B /* CollectionViewCell.swift in Sources */,
+				3B4C9A2C298D2F80000CF52D /* SingleRateViewModel.swift in Sources */,
+				3B038730298A4C0000DCF822 /* CryptoAssetViewModel.swift in Sources */,
+				3BD8A07B2986A58F00191B7B /* HomeViewController.swift in Sources */,
+				3BD8A08B2986A5C500191B7B /* CryptosViewController.swift in Sources */,
+				3B2AF1162987C54300D42B1E /* SingleCryptoModel.swift in Sources */,
+				3B2AF1122987B96900D42B1E /* CryptoAssetModel.swift in Sources */,
 				3BD8A0772986A58F00191B7B /* AppDelegate.swift in Sources */,
 				3BD8A0792986A58F00191B7B /* SceneDelegate.swift in Sources */,
+				3B2AF11B2988003B00D42B1E /* SingleRateWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +403,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +432,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BAB899E298AA1DD00EB628D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BAB899F298AA1DD00EB628D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BAB899E298AA1DD00EB628D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BD8A06B2986A58F00191B7B /* Project object */;
 }
